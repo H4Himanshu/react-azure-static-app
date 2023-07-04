@@ -14,6 +14,7 @@
     "react-hook-form": "^7.45.1",
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
+    "w3c-hr-time": "^1.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
