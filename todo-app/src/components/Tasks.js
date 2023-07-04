@@ -18,7 +18,7 @@ export const Tasks = ({ tasks, deleteTask, taskEdited }) => {
 
     const TaskRow = (task, index) => {
         return (
-            <tr onClick={() => detail(task)} key={index} className={index % 2 == 0 ? 'odd' : 'even'}>
+            <tr onClick={() => detail(task)} key={index} className={index % 2 === 0 ? 'odd' : 'even'}>
                 <td>{task.id}</td>
                 <td>{task.task}</td>
                 <td>{task.assignee}</td>

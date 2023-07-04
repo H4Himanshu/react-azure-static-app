@@ -14,7 +14,7 @@ export async function createTask(data) {
 }
 
 export async function deleteTask(taskId) {
-    const response = await fetch('/api/todo/${taskId}', {
+    const response = await fetch(`/api/todo/${taskId}`, {
         method: 'DELETE'
     })
 
