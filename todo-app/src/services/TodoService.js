@@ -25,7 +25,7 @@ export async function editTask(data) {
     const response = await fetch('/api/todo', {
         method: 'PUT',
         headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify({task: 'application/json'})
+        body: JSON.stringify({task: data})
     })
 
     return await response.json();
